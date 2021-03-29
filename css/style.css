@@ -1,0 +1,349 @@
+.wrap {
+	margin-top: 80px;
+}
+
+.profile-pic {
+	width: 80px;
+	float: left;
+	margin-right: 10px;
+}
+
+.deskripsi {
+	margin-top: 30px;
+	text-align: center;
+}
+
+h1{
+	text-align: center;
+}
+
+.navbar-nav {
+	margin-left: 750px;
+}
+
+.navbar-header {
+	position: absolute;
+	left: 130px;
+	top: 4px;
+}
+
+
+
+.toplogo {
+	position: absolute;
+	left: -18px;
+	top: 4px;
+}
+
+.toplogo a {
+	background-image: url(../images/logo.png);
+	width: 200px;
+	height: 73px;
+	display: block;
+	text-indent: -1000px;
+	background-repeat: no-repeat;
+
+}
+
+.gibson {
+	position: absolute;
+	left: -18px;
+	top: 40px;
+}
+
+.gibson a {
+	background-image: url(../images/gibson.png);
+	width: 200px;
+	height: 60px;
+	display: block;
+	text-indent: -1000px;
+	background-repeat: no-repeat;
+	
+}
+
+.gibson a:hover {			
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+	transition: all .4s ease;
+	-webkit-transition: all .4s ease;
+	-moz-transition: all .4s ease;
+	-ms-transition: all .4s ease;
+	-o-transition: all .4s ease;		
+}
+
+.fender {
+	position: absolute;
+	left: -18px;
+	top: 130px;
+}
+
+.fender a {
+	background-image: url(../images/fender.png);
+	width: 200px;
+	height: 60px;
+	display: block;
+	text-indent: -1000px;
+	background-repeat: no-repeat;
+	
+}
+
+.fender a:hover {			
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+	transition: all .4s ease;
+	-webkit-transition: all .4s ease;
+	-moz-transition: all .4s ease;
+	-ms-transition: all .4s ease;
+	-o-transition: all .4s ease;
+}
+
+.ibanez {
+	position: absolute;
+	left: -18px;
+	top: 220px;
+}
+
+.ibanez a {
+	background-image: url(../images/ibanez.png);
+	width: 200px;
+	height: 60px;
+	display: block;
+	text-indent: -1000px;
+	background-repeat: no-repeat;
+	
+}
+
+.ibanez a:hover {			
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.2);
+	transition: all .4s ease;
+	-webkit-transition: all .4s ease;
+	-moz-transition: all .4s ease;
+	-ms-transition: all .4s ease;
+	-o-transition: all .4s ease;
+}
+
+#footer{
+	clear: both;
+	padding: 10px;
+	text-align: center;
+	font-size: 0.9em;
+	background-color: black;
+	background-image: url(../images/footer.jpg);
+	background-repeat: no-repeat;
+}
+
+#footer p{
+	color: #ddd;
+	margin: 5px;
+	padding-top: 10px;
+}
+
+#footer a{
+	padding: 0;
+	color: #ddd;
+}
+
+#footer a:hover, #footer a:focus, #footer a:active{
+	color: white;
+}
+
+.well-sm h4 {
+	margin-right: 5px;
+}
+
+.col-md-12 h1 {
+	margin-left: -350px;
+}
+
+.col-md-9 ul { 
+  list-style-type: none; 
+}
+.col-md-9 ul li {
+  float: left;
+  margin-right: 20px;
+  transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -o-transition: all .5s ease;
+}
+.col-md-9 ul li:hover {      
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,.5);
+  -moz-box-shadow: 0 0 10px rgba(0,0,0,.5);
+  -ms-box-shadow: 0 0 10px rgba(0,0,0,.5);
+  -o-box-shadow: 0 0 10px rgba(0,0,0,.5);
+}
+.col-md-9 ul li .p-1 p {
+  font-family: arial;
+  background-color: rgba(0,0,0,.3);
+  width: 24%;
+  padding: 10px 0;
+  text-align: center;
+  color: white;
+  position: absolute;
+  bottom: 100px;
+  left: 54px;
+  opacity: 0;
+  z-index: 9999;
+  transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -o-transition: all .5s ease;
+}
+.col-md-9 ul li:hover .p-1 p {
+  opacity: 1;
+  bottom: 160px;
+}
+
+.col-md-9 ul li .p-2 p {
+  font-family: arial;
+  background-color: rgba(0,0,0,.3);
+  width: 24%;
+  padding: 10px 0;
+  text-align: center;
+  color: white;
+  position: absolute;
+  bottom: 100px;
+  left: 285px;
+  opacity: 0;
+  z-index: 9999;
+  transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -o-transition: all .5s ease;
+}
+.col-md-9 ul li:hover .p-2 p {
+  opacity: 1;
+  bottom: 160px;
+}
+.col-md-9 ul li .p-3 p {
+  font-family: arial;
+  background-color: rgba(0,0,0,.3);
+  width: 24%;
+  padding: 10px 0;
+  text-align: center;
+  color: white;
+  position: absolute;
+  bottom: 100px;
+  left: 515px;
+  opacity: 0;
+  z-index: 9999;
+  transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -o-transition: all .5s ease;
+}
+.col-md-9 ul li:hover .p-3 p {
+  opacity: 1;
+  bottom: 150px;
+}
+
+.col-md-9 ul li .p-4 p {
+  font-family: arial;
+  background-color: rgba(0,0,0,.3);
+  width: 24%;
+  padding: 10px 0;
+  text-align: center;
+  color: white;
+  position: absolute;
+  bottom: -60px;
+  left: 54px;
+  opacity: 0;
+  z-index: 9999;
+  transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -o-transition: all .5s ease;
+}
+.col-md-9 ul li:hover .p-4 p {
+  opacity: 1;
+  bottom: -10px;
+}
+
+.col-md-9 ul li .p-5 p {
+  font-family: arial;
+  background-color: rgba(0,0,0,.3);
+  width: 24%;
+  padding: 10px 0;
+  text-align: center;
+  color: white;
+  position: absolute;
+  bottom: -60px;
+  left: 285px;
+  opacity: 0;
+  z-index: 9999;
+  transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -o-transition: all .5s ease;
+}
+.col-md-9 ul li:hover .p-5 p {
+  opacity: 1;
+  bottom: -10px;
+}
+
+.col-md-9 ul li .p-6 p {
+  font-family: arial;
+  background-color: rgba(0,0,0,.3);
+  width: 24%;
+  padding: 10px 0;
+  text-align: center;
+  color: white;
+  position: absolute;
+  bottom: -60px;
+  left: 515px;
+  opacity: 0;
+  z-index: 9999;
+  transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -o-transition: all .5s ease;
+}
+.col-md-9 ul li:hover .p-6 p {
+  opacity: 1;
+  bottom: -10px;
+}
+
+.col-md-9 {
+  border-left: 1px dashed black;
+}
+
+.tambah-produk {
+      border-right: none;
+      margin-top: 330px;
+      min-height: 100px;
+}
+
+.col-md-9 h1{
+      margin-left: -150px;
+}
+
+h2 {
+  font-family: ArizoniaRegular;
+  font-size: 50px;
+}
+
+h1 {
+  font-family: UbuntuBold;
+}
+
+h4 {
+  font-family: LobsterRegular;
+}

@@ -1,0 +1,120 @@
+<!-- Template Standar Bootstrap -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Harus ditambahkan agar valid di semua browser & device -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Kelola Klien</title>
+
+    <!-- CSS Bootstrap (wajib di include-kan) -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- include CSS milik kita setelah bootstrap -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- css font -->
+    <link rel="stylesheet" href="css/fontface.css">
+    <!-- insclude fontface -->
+    <link rel="stylesheet" href="css/fontface.css">
+    <style type="text/css">
+      .logo a {
+        margin-left : -100px;
+        position: relative;
+        z-index: 10;
+      }
+
+      ul {
+        margin-right: 100px;
+      }
+
+      h1 {
+        font-family: carterone;
+      }
+      .page-header {
+        margin-top: -30px;
+      }
+
+
+    </style>
+  </head>
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <div class="toplogo">
+          <a href="admin.html">TMM</a>
+          </div>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="admin.html">Home</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="kelola_klien.html">Kelola Klien</a></li>
+                <li><a href="kelola_produk.html">Kelola Produk</a></li>
+                <li><a href="order.html">Order</a></li>
+              </ul>
+            </li>
+            <li><a href="index.html">Logout</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container wrap">
+      <div class="jumbotron">
+        <h1>Kelola Klien</h1>
+      </div>  
+      <div class="row">
+      <div class="col-md-4 col-md-offset-4">
+        <form class="form-horizontal" role="form">
+        <table class="table table-stripped table-hover table-bordered">
+          <tr>
+            <th>Nama Klien :<input type="text" class="form-control" name="text"/></th>
+          </tr>
+          <tr>
+            <th>Alamat Klien :<input type="text" class="form-control" name="text"/></th>
+          </tr>
+          <tr>
+            <th>Alamat Email :<input type="text" class="form-control" name="text"/></th>
+          </tr>
+          <tr>
+            <th>Alamat Situs :<input type="text" class="form-control" name="text"/></th>
+          </tr>
+          
+          <tr>
+            <th> Tentang Klien :<textarea rows="3" class="form-control" cols="35" name="komentar"></textarea></th>
+          </tr>
+          
+          <tr>
+            <td colspan="2"><div align="center"><input type="submit" name="Register" value="Tambahkan"/></div></td>
+          </tr>
+        </table>
+      </form>
+      </div>
+      </div>
+      
+      <div class="col-md-12">
+        <div id="footer">
+        <p> Copyright &copy;2014.
+      Dibuat oleh <a href="about.me/Azwar.achmadi" title="azwar.achmadi@unpas.ac.id">Azwar Achmadi</a></p>
+        </div> <!-- akhir footer -->
+      </div> <!-- akhir kelas col md 12 -->           
+    </div> <!-- akhir container wrap -->
+
+
+    <!-- jQuery (wajib diinclude-kan agar plugin javascript bisa berfungsi) -->
+    <!-- bisa mengacu ke jquery online (ketika web sudah dipublish) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- atau file jquery offline -->
+    <script src="js/jquery-1.11.1.js"></script>
+    <!-- library javascript milik bootstrap (menggunakan jQuery) -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- java fungsi -->
+    
+  </body>
+</html>

@@ -1,0 +1,176 @@
+<!-- Template Standar Bootstrap -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Harus ditambahkan agar valid di semua browser & device -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Register TMM</title>
+
+    
+    
+    <!-- CSS Bootstrap (wajib di include-kan) -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- include CSS milik kita setelah bootstrap -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- insclude fontface -->
+    <link rel="stylesheet" href="css/fontface.css">
+    <style type="text/css">
+      .logo a {
+        margin-left : -100px;
+        position: relative;
+        z-index: 10;
+      }
+
+      ul {
+        margin-right: 100px;
+      }
+      .page-header h1 {
+        margin-top: -50px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <div class="toplogo">
+          <a href="admin.html">TMM</a>
+          </div>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class=""><a href="index.html"><span class="glyphicon glyphicon-home"></span>  Home</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="product.html">Product</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="client.html">Client</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container wrap">
+
+      <div class="row">
+        <div class="col-md-8">
+          <div class="page-header">
+            <h1>Form Register</h1>
+          </div>
+          <form class="form-horizontal" role="form" action="" method="post">
+            <div class="form-group">
+              <label for="nama" class="col-sm-3 control-label">Nama Lengkap</label>
+              <div class="col-sm-8">
+                <input type="text" class="form-control" id="nama" name="nama" placeholder="nama" required autocomplete="off" autofocus>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="username" class="col-sm-3 control-label">Username</label>
+              <div class="col-sm-8">
+                <input type="text" class="form-control" id="username" name="username" placeholder="username" required autocomplete="off">
+              </div>
+            </div>
+             <div class="form-group">
+              <label for="password" class="col-sm-3 control-label">Password</label>
+              <div class="col-sm-8">
+                <input type="password" class="form-control" id="password" name="password" placeholder="password" required autocomplete="off">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="password" class="col-sm-3 control-label">Confirm Password</label>
+              <div class="col-sm-8">
+                <input type="password" class="form-control" id="password" name="password" placeholder="password" required autocomplete="off">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="alamat" class="col-sm-3 control-label">Alamat Lengkap</label>
+              <div class="col-sm-8">
+                <input type="text" class="form-control" id="alamat" name="alamat" placeholder="alamat" autocomplete="off">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="alamat" class="col-sm-3 control-label">Kode pos</label>
+              <div class="col-sm-3">
+                <input type="text" class="form-control" id="alamat" name="alamat" placeholder="kode pos" autocomplete="off">
+              </div>
+            </div>            
+            <div class="form-group">
+              <label for="no_urut_rt" class="col-sm-3 control-label">No KTP</label>
+              <div class="col-sm-8">
+                <input type="text" class="form-control" id="no_urut_rt" name="no_urut_rt" placeholder="no ktp" autocomplete="off">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="jenis_kelamin" class="col-sm-3 control-label">Jenis Kelamin</label>
+              <div class="col-sm-8">
+                <input type="radio" name="jenis_kelamin" value="1" checked> Laki-laki &nbsp; &nbsp; <input type="radio" name="jenis_kelamin" value="2"> Perempuan
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="umur" class="col-sm-3 control-label">Umur</label>
+              <div class="col-sm-4">
+                <input type="number" min="1" max="150" class="form-control" id="umur" name="umur" placeholder="umur" autocomplete="off">
+              </div>
+            </div>
+            <div class="form-group"> 
+              <label class="col-sm-3 control-label"></label>
+              <label class="col-sm-8" for="setuju"><input type="checkbox" id="setuju" /><span> Saya setuju dengan semua persyaratan</span></label>
+            </div>
+            <div class="form-group">
+              <label class="col-sm-2">&nbsp;</label>
+              <button type="submit" class="btn btn-primary" name="submit">Register</button>
+            </div>
+          </form>
+        
+        </div>
+
+      </div>
+      <div class="col-md-12">
+                <div id="footer">
+                <p> Copyright &copy;2014.
+              Dibuat oleh <a href="about.me/Azwar.achmadi" title="azwar.achmadi@unpas.ac.id">Azwar Achmadi</a></p>
+         </div> <!-- akhir footer -->
+      </div>  
+    </div>
+
+    <!-- jQuery (wajib diinclude-kan agar plugin javascript bisa berfungsi) -->
+    <!-- bisa mengacu ke jquery online (ketika web sudah dipublish) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- atau file jquery offline -->
+    <script src="js/jquery-1.11.1.js"></script>
+    <!-- library javascript milik bootstrap (menggunakan jQuery) -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- java fungsi -->
+    <script>
+  
+      function cekUser() {
+        
+        var username = document.getElementById('username').value;
+        var password = document.getElementById('inputPassword3').value;
+
+        if (username !="admin"){
+        alert("Username yang anda masukan salah");
+      }
+
+      else if (password !="admin"){
+        alert("Password yang anda masukan salah");
+
+      }
+
+      else {
+        document.location.href ="admin.html";
+
+        }
+      } 
+  </script>
+  </body>
+</html>

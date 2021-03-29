@@ -1,0 +1,190 @@
+<!-- Template Standar Bootstrap -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Harus ditambahkan agar valid di semua browser & device -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Product TMM</title>
+
+    <!-- CSS Bootstrap (wajib di include-kan) -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- include CSS milik kita setelah bootstrap -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- include fancybox -->
+    <link rel="stylesheet" href="fancybox/jquery.fancybox.css">
+    <!-- insclude fontface -->
+    <link rel="stylesheet" href="css/fontface.css">
+    <style>
+    
+    #body{
+      margin-top: -20px;
+    }
+
+    .col-md-3 ul {
+      list-style-type: none;
+      margin-top: 70px;
+      border-right: 1px solid;
+      line-height: 100px;
+    }
+
+    .col-md-3 ul li a {
+      font-weight: 200px;
+    }
+
+    .wrap {
+      min-height: 500px;
+    }
+
+    h1 {
+        font-family: carterone;
+      }
+
+  </style>
+  </head>
+  <body>
+
+     <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <div class="toplogo">
+          <a href="admin.html">TMM</a>
+          </div>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="admin.html">Home</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="kelola_klien.html">Kelola Klien</a></li>
+                <li><a href="kelola_produk.html">Kelola Produk</a></li>
+                <li><a href="order.html">Order</a></li>
+              </ul>
+            </li>
+            <li><a href="index.html">Logout</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container wrap">
+      <div class="jumbotron">
+        <h1>Kelola Produk Fender</h1>
+      </div>     
+      <div class="row"> 
+        <div class="col-md-3">
+          <ul>
+            <div class="gibson">
+            <li><a href="kelola_produk.html">Gibson</a></li>
+            </div>
+            <div class="fender">
+            <li><a href="kelola_fender.html">Fender</a></li>
+            </div>
+            <div class="ibanez">
+            <li><a href="kelola_ibanez.html">Ibanez</a></li>
+            </div>
+          </ul>
+          <div class="tambah-produk">
+              <a href="#"><button type="button" class="btn btn-default btn-lg">
+            <span class="glyphicon glyphicon-file"></span> Insert Guitars
+          </button></a>
+          </div> <!-- penutup tambah-produk -->
+        </div>     
+        <div class="col-md-9  ">
+          <ul>
+            <li>
+              <a href="images/fender/jagmaster.png" height="300" width="400" class="gallery" title="Jagmaster <br> Harga Rp 5.990.000" rel="fender">
+                <img src="images/fender/jagmaster.png" alt="Jagmaster" height="170" width="210"></a>
+                <div class="p-1">
+                <p><a href="#"><button type="button" class="btn btn-info btn-sm">
+                <span class="glyphicon glyphicon-trash"></span> Hapus
+                </button></a><a href="#"><button type="button" class="btn btn-info btn-sm">
+                <span class="glyphicon glyphicon-edit"></span> Ubah
+                </button></a></p>
+                </div>
+            </li>
+            <li>
+              <a href="images/fender/jaguar.png" height="300" width="400" class="gallery" title="Jaguar <br> Harga Rp 10.000.000" rel="fender">
+                <img src="images/fender/jaguar.png" alt="Jaguar" height="170" width="210"></a>
+                <div class="p-2">
+                <p><a href="#"><button type="button" class="btn btn-info btn-sm">
+                <span class="glyphicon glyphicon-trash"></span> Hapus
+                </button></a><a href="#"><button type="button" class="btn btn-info btn-sm">
+                <span class="glyphicon glyphicon-edit"></span> Ubah
+                </button></a></p>
+                </div>
+            </li>
+            <li>
+              <a href="images/fender/Jazzmaster.png" height="300" width="400" class="gallery" title="Jazzmaster <br> Harga Rp 15.000.000" rel="fender">
+                <img src="images/fender/Jazzmaster.png" alt="Jazzmaster" height="170" width="210"></a>
+                <div class="p-3">
+                <p><a href="#"><button type="button" class="btn btn-info btn-sm">
+                <span class="glyphicon glyphicon-trash"></span> Hapus
+                </button></a><a href="#"><button type="button" class="btn btn-info btn-sm">
+                <span class="glyphicon glyphicon-edit"></span> Ubah
+                </button></a></p>
+                </div>
+            </li>
+            <li>
+              <a href="images/fender/mustang.png" height="300" width="400" class="gallery" title="Mustang <br> Harga Rp 12.000.000" rel="fender">
+                <img src="images/fender/mustang.png" alt="Mustang" height="170" width="210"></a>
+                <div class="p-4">
+                <p><a href="#"><button type="button" class="btn btn-info btn-sm">
+                <span class="glyphicon glyphicon-trash"></span> Hapus
+                </button></a><a href="#"><button type="button" class="btn btn-info btn-sm">
+                <span class="glyphicon glyphicon-edit"></span> Ubah
+                </button></a></p>
+                </div>
+            </li>
+            <li>
+              <a href="images/fender/Stratocaster.png" height="300" width="400" class="gallery" title="Stratocaster <br> Harga Rp 15.000.000" rel="fender">
+                <img src="images/fender/Stratocaster.png" alt="Stratocaster" height="170" width="210"></a>
+                <div class="p-5">
+                <p><a href="#"><button type="button" class="btn btn-info btn-sm">
+                <span class="glyphicon glyphicon-trash"></span> Hapus
+                </button></a><a href="#"><button type="button" class="btn btn-info btn-sm">
+                <span class="glyphicon glyphicon-edit"></span> Ubah
+                </button></a></p>
+                </div>
+            </li>
+            <li>
+              <a href="images/fender/telecaster.png" height="300" width="400" class="gallery" title="Telecaster <br> Harga Rp 15.000.000" rel="fender">
+                <img src="images/fender/telecaster.png" alt="Telecaster" height="170" width="210"></a>
+                <div class="p-6">
+                <p><a href="#"><button type="button" class="btn btn-info btn-sm">
+                <span class="glyphicon glyphicon-trash"></span> Hapus
+                </button></a><a href="#"><button type="button" class="btn btn-info btn-sm">
+                <span class="glyphicon glyphicon-edit"></span> Ubah
+                </button></a></p>
+                </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+    </div>
+    <div class="col-md-12">
+              <div id="footer">
+              <p> Copyright &copy;2014.
+            Dibuat oleh <a href="about.me/Azwar.achmadi" title="azwar.achmadi@unpas.ac.id">Azwar Achmadi</a></p>
+       </div> <!-- akhir footer -->
+    </div>
+
+    <!-- jQuery (wajib diinclude-kan agar plugin javascript bisa berfungsi) -->
+    <!-- bisa mengacu ke jquery online (ketika web sudah dipublish) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- atau file jquery offline -->
+    <script src="js/jquery-1.11.1.js"></script>
+    <!-- library javascript milik bootstrap (menggunakan jQuery) -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- panggil fancybox -->
+    <script src="fancybox/jquery.fancybox.js"></script>
+    <script>
+      $('.gallery').fancybox();
+    </script>
+  </body>
+</html>
