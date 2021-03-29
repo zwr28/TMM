@@ -1,0 +1,237 @@
+<!-- Template Standar Bootstrap -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Harus ditambahkan agar valid di semua browser & device -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Index TMM</title>
+
+    <!-- CSS Bootstrap (wajib di include-kan) -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- include CSS milik kita setelah bootstrap -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- insclude fontface -->
+    <link rel="stylesheet" href="css/fontface.css">
+    <style type="text/css">
+      .logo a img {
+        margin-left : -100px;
+      }
+
+      #button{
+        border-color: white;
+        border-radius: 10px;
+        width: 70px;
+        height: 30px;
+        margin-left: -120px;
+      }
+
+      h4 {
+        margin-right: 70px;
+      }
+
+      h3 {
+        font-family: carterone;
+        font-size: 50px;
+      }
+
+      .carousel-caption p {
+        font-family: UbuntuBold;
+        font-size: 20px;
+      }
+
+      .col-md-4 h4 {
+        font-family: UbuntuBold;
+      }
+   </style>
+  </head>
+  <body>
+    
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <div class="toplogo">
+          <a href="index.html">TMM</a>
+          </div>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"></span>  Home</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="product.html">Product</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="client.html">Client</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container wrap">
+
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="images/guitar.jpg" alt="Guitar">
+      <div class="carousel-caption">
+        <h3>Welcome To My Website</h3>
+        <p>Disini kami menawarkan gitar elektrik dengan harga yang terjangkau</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/latar.jpg" alt="Guitar">
+      <div class="carousel-caption">
+        <h3>Daftar dan Pesan Sekarang</h3>
+        <p>Caranya hanya dengan mendaftarkan diri anda menjadi member kami.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>      
+      <div class="row"> 
+      <h1>Great guitars comes from the experts.</h1>       
+        <div class="col-md-12 content">
+          
+
+          <!-- 2 kolom -->
+          <div class="row deskripsi">
+            <div class="col-md-4">
+              <img class="img-thumbnail" src="images/gibson/gibson depan.png" alt="Generic placeholder image" href="product.html">
+              <h2>Gibson</h2>
+              <p>Gibson Guitar Corporation adalah pembuat Amerika gitar dan instrumen lainnya, kini berbasis di Nashville, Tennessee. Orville Gibson mendirikan perusahaan pada tahun 1902 sebagai "The Gibson Mandolin-Gitar Mfg Co, Ltd" di Kalamazoo, Michigan untuk membuat instrumen mandolin-keluarga.</p>
+            </div><!-- /.col-md-4 -->
+            <div class="col-md-4">
+              <img class="img-thumbnail" src="images/fender/fender depan.png" alt="Generic placeholder image">
+              <h2>Fender</h2>
+              <p>Fender, adalah pabrikan alat musik dawai dan penguat suaranya, seperti gitar elektrik badan-padat. Beberapa produk terkenal mereka antara lain termasuk Fender Telecaster, Fender Stratocaster, dan Fender Precision Bass. Perusahaan Fender pertama kali didirikan oleh Leo Fender pada 1946 dengan nama "Fender Electric Instrument Manufacturing Company".</p>
+            </div><!-- /.col-md-4 -->
+            <div class="col-md-4">
+              <img class="img-thumbnail" src="images/ibanez/ibanez depan.png" alt="Generic placeholder image">
+              <h2>Ibanez</h2>
+              <p>Ibanez merupakan sebuah perusahaan multinasional yang menghasilkan berbagai macam produk alat musik. Perusahaan ini didirikan pada tahun 1957. Bermarkas di Nagoya, Jepang. Menghasilkan produk elektronik seperti gitar, bass, amplifier dan masih banyak lagi. <br> <br> <br> <br></p>             
+            </div><!-- /.col-md-4 -->
+            <div class="col-md-4">
+              <div class="well well-sm">
+                <h4>About TheManymore Guitars</h4>
+                <img src="images/tmm.png" class="img-thumbnail profile-pic">
+                <p>
+              Website kita dibuat agar penyuka musik khususnya pecinta gitar agar lebih mudah dalam mendapatkan gitar yang diinginkanya.
+            </p>
+            <p>
+              Hanya dengan menjadi member kami, anda akan mendapatkan beberapa promo dari produk kami. Selain itu, anda akan mendapatkan kartu member yang bisa digunakan di beberapa supermarket ternama di Indonesia
+            </p>
+              </div>
+            </div>
+            
+            <div class="col-md-4 col-md-offset-4">              
+                <h4>LOGIN</h4>
+              <form class="form-horizontal" role="form">
+              <div class="form-group">
+                <label for="username" class="col-sm-3 control-label">Username</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="username" placeholder="Username" autocomplete="off">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputPassword3" class="col-sm-3 control-label">Password</label>
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-6">
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox"> Remember me
+                    </label>
+                    <br>
+                    <a href="register.html">Register</a>
+                  </div>
+
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-3 ">                  
+                  <input  id="button" type="button" value="Sign in" onclick="cekUser()">
+                </div>                
+                <tr><td>  
+                <div class="logo">                
+                  <a href="http://facebook.com/zheyfoopunkster">
+                  <img src="images/face.png"></a>
+                  <a href="http://twitter.com/azwar_achmadi">
+                  <img src="images/twit.png"></a>
+                  <a href="http://google.com/azwar.achmadi">
+                  <img src="images/google.png"></a>
+                </div>
+                </td></tr>               
+              </div>
+            </form>
+              </div>
+            </div>
+             <div class="col-md-12">
+                <div id="footer">
+                <p> Copyright &copy;2014.
+              Dibuat oleh <a href="about.me/Azwar.achmadi" title="azwar.achmadi@unpas.ac.id">Azwar Achmadi</a></p>
+                 </div> <!-- akhir footer -->
+              </div>
+          </div><!-- /.row -->
+
+        </div>
+      </div>
+      
+    </div>
+
+
+    <!-- jQuery (wajib diinclude-kan agar plugin javascript bisa berfungsi) -->
+    <!-- bisa mengacu ke jquery online (ketika web sudah dipublish) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- atau file jquery offline -->
+    <script src="js/jquery-1.11.1.js"></script>
+    <!-- library javascript milik bootstrap (menggunakan jQuery) -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- java fungsi -->
+    <script>
+  
+      function cekUser() {
+        
+        var username = document.getElementById('username').value;
+        var password = document.getElementById('inputPassword3').value;
+
+        if (username !="admin"){
+        alert("Username yang anda masukan salah");
+      }
+
+      else if (password !="admin"){
+        alert("Password yang anda masukan salah");
+
+      }
+
+      else {
+        document.location.href ="admin.html";
+
+        }
+      } 
+  </script>
+  </body>
+</html>
