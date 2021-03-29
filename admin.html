@@ -1,0 +1,115 @@
+<!-- Template Standar Bootstrap -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Harus ditambahkan agar valid di semua browser & device -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Admin TMM</title>
+
+    <!-- CSS Bootstrap (wajib di include-kan) -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- include CSS milik kita setelah bootstrap -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- insclude fontface -->
+    <link rel="stylesheet" href="css/fontface.css">
+    <style type="text/css">
+      .logo a {
+        margin-left : -100px;
+        position: relative;
+        z-index: 10;
+      }
+
+      ul {
+        margin-right: 100px;
+      }
+    @font-face {
+          font-family: 'carterone';
+          src: url('font/carterone-webfont.eot');
+          src: url('font/carterone-webfont.eot?#iefix') format('embedded-opentype'),
+               url('font/carterone-webfont.woff') format('woff'),
+               url('font/carterone-webfont.ttf') format('truetype'),
+               url('font/carterone-webfont.svg#open_sansbold') format('svg');
+          font-weight: normal;
+          font-style: normal;
+      }
+
+      h1 {
+        font-family: carterone;
+      }
+
+      body {
+      min-height: 500px;
+      }
+
+    </style>
+  </head>
+  <body>
+
+<!-- Fixed navbar -->
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <div class="toplogo">
+      <a href="admin.html">TMM</a>
+      </div> <!-- akhir toplogo -->
+    </div> <!-- akhir navbar-header -->
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="admin.html"><span class="glyphicon glyphicon-home"></span>  Home</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="kelola_klien.html">Kelola klien</a></li>
+            <li><a href="kelola_produk.html">Kelola Produk</a></li>
+            <li><a href="order.html">Order</a></li>
+          </ul>
+        </li>
+        <li><a href="index.html">Logout</a></li>
+      </ul>
+    </div> <!-- akhir navbar-collapse collapse -->
+  </div> <!-- akhir container -->
+</div> <!-- akhir navbar -->
+
+<div class="container wrap">
+  <div class="jumbotron">
+    <h1>Selamat Datang Admin</h1>
+    <center><p>Anda mempunyai hak untuk mengelola klien, megelola produk dan mengelola order</p>
+  </div>
+  <div class="row">
+    <div class="col-md-3">
+      <table class="table table-striped table-hover table-bordered">
+        <tr class="danger">
+          <th>Kelola Klien</th>
+          <td><a href="kelola_klien.html">Klik Disini</a></td>
+        </tr>
+        <tr class="danger">
+          <th>Kelola Produk</th>
+          <td><a href="kelola_produk.html">Klik Disini</a></td>    
+        </tr>
+        <tr class="danger">
+          <th>Order</th>
+          <td><a href="order.html">Klik Disini</a></td>    
+        </tr>         
+      </table>
+    </div>    
+  </div>
+  <div class="col-md-12">
+    <div id="footer">
+      <p>Copyright &copy;2014. Dibuat oleh <a href="about.me/Azwar.achmadi" title="azwar.achmadi@unpas.ac.id">Azwar Achmadi</a></p>
+    </div> <!-- akhir footer --> 
+  </div>        
+</div> <!-- akhir container wrap -->
+
+
+    <!-- jQuery (wajib diinclude-kan agar plugin javascript bisa berfungsi) -->
+    <!-- bisa mengacu ke jquery online (ketika web sudah dipublish) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- atau file jquery offline -->
+    <script src="js/jquery-1.11.1.js"></script>
+    <!-- library javascript milik bootstrap (menggunakan jQuery) -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
